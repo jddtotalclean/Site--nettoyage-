@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JDD Total Clean | Nettoyage Professionnel Belgique</title>
+  <meta name="description" content="Entreprise de nettoyage professionnelle en Belgique. Nettoyage après chantier, bureaux, sinistres, cuisines professionnelles. Devis gratuit.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      width: 120px;
+      background: white;
+      padding: 5px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ebe5d;
+    }
+
+    .btn-devis {
+      background: #111827;
+      color: white;
+    }
+
+    .btn-devis:hover {
+      background: #000;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .service {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    /* FORM */
+    .form-box {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 15px;
+      padding: 12px;
+      background: #1e3a8a;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0f172a;
+    }
+
+    /* WHATSAPP FLOAT */
+    .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo JDD Total Clean">
+
+  <h1>JDD Total Clean</h1>
+  <h2>Nettoyage professionnel en Belgique</h2>
+
+  <a class="btn btn-whatsapp" href="https://wa.me/32483558874" target="_blank">
+    📲 WhatsApp immédiat
+  </a>
+
+  <a class="btn btn-devis" href="#devis">
+    📩 Demander un devis
+  </a>
+</header>
+
+<section>
+  <h2>Nos services</h2>
+
+  <div class="services">
+    <div class="service">Nettoyage après chantier</div>
+    <div class="service">Bureaux professionnels</div>
+    <div class="service">Cuisine & hotte</div>
+    <div class="service">Sinistres (incendie / eau)</div>
+    <div class="service">Nettoyage Diogène</div>
+    <div class="service">Déménagement</div>
+    <div class="service">Terrasses & extérieurs</div>
+    <div class="service">Nettoyage complet entreprise</div>
+  </div>
+</section>
+
+<section id="devis">
+  <h2>Devis gratuit en 24h</h2>
+
+  <div class="form-box">
+
+    <!-- FORMULAIRE 100% AUTO (FORMSPREE) -->
+    <form action="https://formspree.io/f/XXXXXXX" method="POST">
+
+      <input type="text" name="nom" placeholder="Votre nom" required>
+
+      <input type="tel" name="telephone" placeholder="Votre téléphone" required>
+
+      <input type="email" name="email" placeholder="Votre email">
+
+      <textarea name="message" rows="5" placeholder="Décrivez votre demande..." required></textarea>
+
+      <button type="submit">Envoyer ma demande</button>
+
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 JDD Total Clean - Tous droits réservés
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp-float" href="https://wa.me/32483558874" target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
